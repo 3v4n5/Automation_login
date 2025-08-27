@@ -16,8 +16,7 @@ Este proyecto implementa pruebas automatizadas para la funcionalidad de login ut
 ## 🚀 Instalación
 
 Clona el repositorio:
-
-   ```bash
+```bash
    git clone https://github.com/3v4n5/Automation_login.git
    cd Automation_login
 
