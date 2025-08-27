@@ -1,0 +1,381 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-with-2fa;successful-login-with-valid-credentials-and-2fa",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Successful login with valid credentials and 2FA",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 730749800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "src\\test\\steps\\LoginSteps.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2414954000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "the user enters valid email and password",
+            "match": {
+              "location": "src\\test\\steps\\LoginSteps.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2516254999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "the user enters a valid 2FA code",
+            "match": {
+              "location": "src\\test\\steps\\LoginSteps.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1463391900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "the user submits the 2FA form",
+            "match": {
+              "location": "src\\test\\steps\\LoginSteps.ts:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 623912800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "the user see the dashboard",
+            "match": {
+              "location": "src\\test\\steps\\LoginSteps.ts:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7218288699
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 243443200
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-with-2fa;failed-login-with-invalid-2fa-code",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Failed login with invalid 2FA code",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 623135400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "src\\test\\steps\\LoginSteps.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2383297100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "the user enters email and password",
+            "match": {
+              "location": "src\\test\\steps\\LoginSteps.ts:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2548289999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "the user enters a invalid 2FA code",
+            "match": {
+              "location": "src\\test\\steps\\LoginSteps.ts:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1448958399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "the user submits the 2FA form",
+            "match": {
+              "location": "src\\test\\steps\\LoginSteps.ts:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 625302999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "an error message should be displayed indicating invalid credentials",
+            "match": {
+              "location": "src\\test\\steps\\LoginSteps.ts:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8172599
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 200322299
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-with-2fa;failed-login-with-empty-2fa-code",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Failed login with empty 2FA code",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 655757400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 18,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "src\\test\\steps\\LoginSteps.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2315910100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "the user enters email and password",
+            "match": {
+              "location": "src\\test\\steps\\LoginSteps.ts:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2733075700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "the user leaves the 2FA code field empty",
+            "match": {
+              "location": "src\\test\\steps\\LoginSteps.ts:56"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1450613599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "the user submits the 2FA form",
+            "match": {
+              "location": "src\\test\\steps\\LoginSteps.ts:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 622875200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "an error message should be displayed indicating that the 2FA code is required",
+            "match": {
+              "location": "src\\test\\steps\\LoginSteps.ts:61"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11042499
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 198532499
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-with-2fa;failed-login-with-expired-2fa-code",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "Failed login with expired 2FA code",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 789493099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 25,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "src\\test\\steps\\LoginSteps.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2240861899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 26,
+            "name": "the user enters email and password",
+            "match": {
+              "location": "src\\test\\steps\\LoginSteps.ts:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2516297300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "the user enters an expired 2FA code",
+            "match": {
+              "location": "src\\test\\steps\\LoginSteps.ts:67"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 31640736700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "the user submits the 2FA form",
+            "match": {
+              "location": "src\\test\\steps\\LoginSteps.ts:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1998741900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "an error message should be displayed indicating that the 2FA code has expired",
+            "match": {
+              "location": "src\\test\\steps\\LoginSteps.ts:74"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8883199
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 219844399
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-with-2fa",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login with 2FA",
+    "tags": [],
+    "uri": "src\\test\\features\\login.feature"
+  }
+]
