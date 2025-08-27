@@ -27,3 +27,6 @@ npm install
 ## Instala los navegadores necesarios para Playwright:
 npx playwright install
 
+## Configuración de Cucumber (cucumber.json)
+
+# El archivo cucumber.json está configurado para ejecutar las pruebas en paralelo y generar reportes en formato JSON y HTML:
