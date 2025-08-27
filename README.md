@@ -15,7 +15,7 @@ Este proyecto implementa pruebas automatizadas para la funcionalidad de login ut
 
 ## 🚀 Instalación
 
-1. Clona el repositorio:
+Clona el repositorio:
 
    ```bash
    git clone https://github.com/3v4n5/Automation_login.git
@@ -95,8 +95,8 @@ npm run test src/test/features/login.feature
 
 ## Reportes
 Después de ejecutar las pruebas, se generan reportes en la carpeta reports/:
--JSON: reports/cucumber-report.json
--HTML: reports/cucumber-report.html
+- JSON: reports/cucumber-report.json
+- HTML: reports/cucumber-report.html
 
 ```bash
 npm run report
@@ -105,7 +105,7 @@ npm run report
 
 Las pruebas abren el navegador en pantalla completa gracias a:
 
--La configuración viewport: null en el BrowserContext.
+- La configuración viewport: null en el BrowserContext.
 
 ## ✅ Buenas Prácticas
 
