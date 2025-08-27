@@ -24,6 +24,6 @@ Este proyecto implementa pruebas automatizadas para la funcionalidad de login ut
 ## Instala las dependencias:
 npm install
 
-##Instala los navegadores necesarios para Playwright:
+## Instala los navegadores necesarios para Playwright:
 npx playwright install
 
