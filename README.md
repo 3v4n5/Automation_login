@@ -28,5 +28,32 @@ npm install
 npx playwright install
 
 ## Configuración de Cucumber (cucumber.json)
+El archivo cucumber.json está configurado para ejecutar las pruebas en paralelo y generar reportes en formato JSON y HTML:
 
-# El archivo cucumber.json está configurado para ejecutar las pruebas en paralelo y generar reportes en formato JSON y HTML:
+{
+    "default": {
+        "requireModule": [
+            "ts-node/register"
+        ],
+        "require": [
+            "src/test/steps/**/*.ts",
+            "src/test/hooks/**/*.ts"
+        ],
+        "paths": [
+            "src/test/features/**/*.feature"
+        ],
+        "format": [
+            "progress",
+            "json:reports/cucumber-report.json",
+            "html:reports/cucumber-report.html"
+        ],
+        "formatOptions": {
+            "snippetInterface": "async-await"
+        },
+        "publishQuiet": true,
+        "dryRun": false,
+        "parallel": 4
+        
+    }
+}
+
