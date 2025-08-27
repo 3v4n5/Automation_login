@@ -105,7 +105,7 @@ npm run report
 
 Las pruebas abren el navegador en pantalla completa gracias a:
 
-La configuración viewport: null en el BrowserContext.
+-La configuración viewport: null en el BrowserContext.
 
 ## ✅ Buenas Prácticas
 
